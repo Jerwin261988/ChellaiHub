@@ -1,0 +1,13 @@
+{
+  "name": "company-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Staff portal and payroll hub (Node + Supabase, hosted on Render)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import": "node scripts/import-backup.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": { "node": ">=18" }
+}
